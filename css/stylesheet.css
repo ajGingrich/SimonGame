@@ -1,0 +1,219 @@
+/** {
+    border: 0.1px dashed black;
+}*/
+
+body {
+    /*background-image: url("http://sailrockdiversresort.com/wp-content/wp-uploads/2015/02/15-simon-web-design-5-cool-backgrounds-1600x900.jpg");*/
+    background-color: cornflowerblue;
+    text-align: center;
+}
+#header {
+    font-size: 20px;
+    font-family: Verdana, serif;
+    margin-bottom: 10px;
+}
+#outer {
+    background-color: #35373a;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#victory {
+    display: none;
+    position: relative;
+    background-color: #32d169;
+    width: 350px;
+    height: 350px;
+    margin: -350px auto auto auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-family: Verdana, serif;
+    z-index: 80;
+}
+#victory p {
+    position: absolute;
+    margin-top: 120px;
+}
+#center {
+    background-color: white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: 10;
+    font-family: Verdana, serif;
+    font-size: 14px;
+}
+/* Music Buttons */
+#buttonContainer {
+    position: relative;
+    border-radius: 50%;
+    width: 325px;
+    height: 325px;
+}
+.button {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+}
+#greenBtn {
+    top:0;
+    left:0;
+    border-radius:100% 0 0 0;
+}
+#redBtn {
+    top:0;
+    right:0;
+    border-radius: 0 100% 0 0;
+}
+#blueBtn {
+    bottom:0;
+    right:0;
+    border-radius: 0 0 100% 0;
+}
+#yellowBtn {
+    bottom:0;
+    left:0;
+    border-radius: 0 0 0 100%;
+}
+.green {
+    background-color: green;
+}
+.red {
+    background-color:red;
+}
+.blue {
+    background-color:blue;
+}
+.yellow {
+    background-color:yellow;
+}
+
+.cutout {
+    width:60%;
+    height:60%;
+    background-color:#35373a;
+    position:absolute;
+    top:20%;
+    left:20%;
+    border-radius:50%;
+}
+.button:hover {
+    cursor: pointer;
+}
+.cutout:hover {
+    cursor: default;
+}
+
+/*make circles not touching*/
+#circleBreakTop {
+    width: 30px;
+    height: 80px;
+    position: absolute;
+    margin-top: -65px;
+    margin-left: 82px;
+    border-radius: 0;
+}
+#circleBreakBottom {
+    width: 30px;
+    height: 80px;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 82px;
+    border-radius: 0;
+}
+#circleBreakLeft {
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    margin-top: 82px;
+    margin-left: -70px;
+    border-radius: 0;
+}
+#circleBreakRight {
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    margin-top: 82px;
+    margin-left: 185px;
+    border-radius: 0;
+}
+#count {
+    width: 40px;
+    height: 40px;
+    background-color: #0d0d0d;
+    border-radius: 5px;
+    color: red;
+    z-index: 10;
+    margin: 8px 0 0 55px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Center Buttons*/
+.cButton {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    box-shadow: 0 3px 0 0 #222121, inset -1px -3px 10px 1px #515151;
+}
+.cButton:hover {
+    cursor: pointer;
+}
+#start {
+    background-color: green;
+    margin: 50px 0 0 27px;
+}
+#reset {
+    background-color: red;
+    margin: 50px 0 0 65px;
+}
+#strict {
+    background-color: orange;
+    margin: 50px 0 0 107px;
+
+}
+.active {
+    transform: translate(0px, 3px);
+    box-shadow: none;
+}
+#start:active {
+    transform: translate(0px, 3px);
+    box-shadow: none;
+}
+#reset:active {
+    transform: translate(0px, 3px);
+    box-shadow: none;
+}
+
+/*Center Text for Buttons*/
+.centerText {
+    position: absolute;
+}
+#countText {
+    margin: 2px 0 0 55px;
+}
+#startText {
+    margin: 25px 0 0 15px;
+}
+#resetText {
+    margin: 25px 0 0 55px;
+}
+#strictText {
+    margin: 25px 0 0 100px;
+}
+
+/*background color Pink*/
+.pink {
+    background-color: pink;
+}
+
+
+
